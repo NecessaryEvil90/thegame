@@ -1,0 +1,14 @@
+n_evil_frontend:
+    resource: "@NEvilFrontendBundle/Resources/config/routing.xml"
+    prefix:   /
+
+app:
+    resource: "@NEvilUserBundle/Controller/"
+    type:     annotation
+
+lobby:
+    resource: "@NEvilFrontLobbyBundle/Controller/"
+    type:     annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

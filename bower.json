@@ -1,0 +1,26 @@
+{
+  "name": "gamedata",
+  "homepage": "https://github.com/NecessaryEvil90/game",
+  "authors": [
+    "Mishura Yuriy <Yuriy.Mishura@modera.net>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/static/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "angularjs#^1.5.0"
+  }
+}
