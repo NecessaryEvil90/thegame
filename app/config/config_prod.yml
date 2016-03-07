@@ -1,22 +1,6 @@
 imports:
     - { resource: config.yml }
 
-#framework:
-#    validation:
-<<<<<<< HEAD
-#        cache: validator.mapping.cache.apc
-=======
-#        cache: validator.mapping.cache.doctrine.apc
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
-#    serializer:
-#        cache: serializer.mapping.cache.apc
-
-#doctrine:
-#    orm:
-#        metadata_cache_driver: apc
-#        result_cache_driver: apc
-#        query_cache_driver: apc
-
 monolog:
     handlers:
         main:

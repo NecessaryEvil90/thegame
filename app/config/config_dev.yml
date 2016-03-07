@@ -8,17 +8,12 @@ framework:
     profiler: { only_exceptions: false }
 
 web_profiler:
-<<<<<<< HEAD
     toolbar: true
-=======
-    toolbar: false
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
     intercept_redirects: false
 
 monolog:
     handlers:
         main:
-<<<<<<< HEAD
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
             level:  debug
@@ -37,30 +32,9 @@ monolog:
                 VERBOSITY_VERY_VERBOSE: NOTICE
                 VERBOSITY_DEBUG: DEBUG
             channels: ["doctrine"]
-=======
-            type: stream
-            path: "%kernel.logs_dir%/%kernel.environment%.log"
-            level: debug
-            channels: [!event]
-        console:
-            type:   console
-            bubble: false
-            channels: [!event, !doctrine]
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
-        # uncomment to get logging in your browser
-        # you may have to allow bigger header sizes in your Web server configuration
-        #firephp:
-        #    type:   firephp
-        #    level:  info
-        #chromephp:
-        #    type:   chromephp
-        #    level:  info
 
-<<<<<<< HEAD
 assetic:
     use_controller: true
 
-=======
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
 #swiftmailer:
 #    delivery_address: me@example.com

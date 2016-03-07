@@ -25,12 +25,9 @@ security:
             anonymous:    true
 
     access_control:
-<<<<<<< HEAD
         - { path: ^/$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/lobby$, role: ROLE_USER}
-=======
         - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
         - { path: ^/admin/, role: ROLE_ADMIN }

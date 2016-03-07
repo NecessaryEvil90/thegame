@@ -1,17 +1,11 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html ng-app="frontendApp">
-=======
-<html>
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% block title %}title{% endblock %}</title>
         <link href="{{ asset('static/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
-<<<<<<< HEAD
-        <base href="/">
     </head>
     <body>
         <div ng-view></div>
@@ -23,14 +17,5 @@
         <script src="{{ asset('bundles/nevilfrontend/js/app.js') }}"></script>
         <script src="{{ asset('bundles/nevilfrontend/js/services/lobbyService.js') }}"></script>
         <script src="{{ asset('bundles/nevilfrontend/js/controllers/lobbyController.js') }}"></script>
-
-=======
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        
-        <script src="{{ asset('static/jquery/dist/jquery.min.js') }}"></script>
-        <script src="{{ asset('static/bootstrap/dist/js/bootstrap.min.js') }}"></script>
->>>>>>> bb42cde024c869398b3ab734d17cf8dbebc47ef7
     </body>
 </html>
