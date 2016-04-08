@@ -56,6 +56,9 @@
         "symfony-web-dir": "web",
         "platform": {
             "php": "5.5.9"
+        },
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
         }
     }
 }
