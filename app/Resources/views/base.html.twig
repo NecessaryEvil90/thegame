@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="frontendApp">
+<html>
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,14 +13,11 @@
             some stuff replaced
 
         {% endblock %}
-        <div ng-view></div>
         <script src="{{ asset('static/jquery/dist/jquery.min.js') }}"></script>
         <script src="{{ asset('static/bootstrap/dist/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('static/angular/angular.js') }}"></script>
         <script src="{{ asset('static/angular-resource.js') }}"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-        <script src="{{ asset('bundles/nevilfrontend/js/app.js') }}"></script>
-        <script src="{{ asset('bundles/nevilfrontend/js/services/lobbyService.js') }}"></script>
-        <script src="{{ asset('bundles/nevilfrontend/js/controllers/lobbyController.js') }}"></script>
+        <script src="/bundles/nevilfrontend/js/app.js"></script>
     </body>
 </html>

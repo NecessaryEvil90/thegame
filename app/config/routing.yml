@@ -1,6 +1,7 @@
 n_evil_frontend:
-    resource: "@NEvilFrontendBundle/Resources/config/routing.xml"
+    resource: "@NEvilFrontendBundle/Controller/"
     prefix:   /
+    type:     annotation
 
 app:
     resource: "@NEvilUserBundle/Controller/"
